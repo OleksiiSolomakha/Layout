@@ -29,7 +29,7 @@ nav ul li a:hover {
 nav ul li a:hover::before { 
   content: url('../img/hover.png');
   position: absolute;
-  bottom: .9vh;
+  bottom: .8vh;
   left: -2.5vw;
 }
 .nav {
@@ -46,7 +46,7 @@ nav ul li a:hover::before {
   margin-left: 7.8%;
 }
 .header {
-  height: 56vh;
+  height: 53vh;
   background-color:#F0F0F2;
   display: flex;
   justify-content: space-between;
@@ -73,7 +73,7 @@ nav ul li a:hover::before {
   width: 25vw;
 }
 .history {
-  padding: 5% 7.5%;
+  padding: 5% 7.5% 0 7.5%;
   height: 100vh;
   display: flex;
   background-color: #FAFAFA;
@@ -88,7 +88,7 @@ nav ul li a:hover::before {
 }
 .history-logo img {
   width: 39vw;
-  height: 96vh;
+  height: 92vh;
 }
 .main-story {
   width: 40vw;
@@ -105,12 +105,13 @@ nav ul li a:hover::before {
   margin-top: 5vh;
 }
 .skills-rate label {
+  margin: .09vh 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   letter-spacing: .03em;
 }
 .skills-rate input {
-  margin: 3vh 0;
+  margin: 2.7vh 0;
   position: relative;
 }
 .skills-rate input {
@@ -156,7 +157,7 @@ nav ul li a:hover::before {
 }
 #photoshop::before {
   position: absolute;
-  bottom: 2.5vh;
+  bottom: 2.7vh;
   right: 6.7vw;
 }
 #photoshop::-webkit-slider-runnable-track {
@@ -174,7 +175,7 @@ nav ul li a:hover::before {
 }
 #branding::before {
   position: absolute;
-  bottom: 2.5vh;
+  bottom: 2.7vh;
   right: 4.8vw;
 }
 #branding::-webkit-slider-runnable-track {
@@ -192,7 +193,7 @@ nav ul li a:hover::before {
 }
 #photography::before {
   position: absolute;
-  bottom: 2.5vh;
+  bottom: 2.7vh;
   right: 21.4vw;
 }
 #photography::-webkit-slider-runnable-track {
@@ -210,7 +211,7 @@ nav ul li a:hover::before {
 }
 #web-design::before {
   position: absolute;
-  bottom: 2.5vh;
+  bottom: 2.7vh;
   right: 8.5vw;
 }
 #web-design::-webkit-slider-runnable-track {
@@ -223,7 +224,7 @@ nav ul li a:hover::before {
 }
 .team {
   margin: 0;
-  height: 146vh;  
+  height: 145vh;  
   background-color: #FAFAFA;
   font-family: 'Lato', sans-serif;
   font-size: .9em;
@@ -235,10 +236,11 @@ nav ul li a:hover::before {
   text-align: center;
   width: 46vw;
   line-height: 5vh;
+  letter-spacing: .02em;
 }
 .team-about h2 {
   margin: 0;
-  padding: 1vh 0 1.5vh 0;
+  padding: 6.5vh 0 1.5vh 0;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
@@ -246,7 +248,7 @@ nav ul li a:hover::before {
   letter-spacing: .45em;
 }
 .team-cards {
-  margin-top: 9.5vh;
+  margin-top: 9vh;
   display: flex;
   justify-content: space-around;
   padding: 0 7%;
@@ -260,7 +262,7 @@ nav ul li a:hover::before {
   background-size: auto;
   background-position: bottom;
   width: 100%;
-  height: 70vh;
+  height: 66.5vh;
 }
 .card-two-logo {
   background: #EEEEEE url('../img/albert.png');
@@ -268,7 +270,7 @@ nav ul li a:hover::before {
   background-size: auto;
   background-position: bottom;
   width: 100%;
-  height: 70vh;
+  height: 66.5vh;
 }
 .card-three-logo {
   background: #EEEEEE url('../img/jenn.png');
@@ -276,10 +278,11 @@ nav ul li a:hover::before {
   background-size: auto;
   background-position: bottom;
   width: 100%;
-  height: 70vh;
+  height: 66.5vh;
 }
 .card-text {
-  padding: 2.5vw;
+  padding: 2.2vw;
+  padding-bottom: 1.8vw;
   color: #777777;
   background-color: #FFFFFF;
 }
@@ -295,6 +298,7 @@ nav ul li a:hover::before {
 .card-text h4 {
   margin: 1vh 0;
   font-weight: 900;
+  letter-spacing: .1em;
 }
 .card-description p {
   font-family: 'Lato', sans-serif;
@@ -309,14 +313,14 @@ footer {
 .footer-logo {
   width: 15vw;
   height: 6vh;
-  margin: 8.5vh auto;
+  margin: 7.8vh auto;
 }
 .footer-logo img {
   padding-top: 2vh;
 }
 .footer-links {
   height: 5vh;
-  padding-top: 2vh;
+  padding-top: 1.5vh;
 }
 .footer-links a {
   color: #777777;
